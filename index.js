@@ -7,6 +7,7 @@ const sectionCategorias = document.getElementById("section-categorias")
 const sectionReportes = document.getElementById("section-reportes")
 
 
+// Funcionamiento botones menu (revisar si se puede simplificar)
 
 botonBalance.onclick = () => {
     sectionBalance.classList.remove("is-hidden")
